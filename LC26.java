@@ -1,3 +1,4 @@
+//26. Remove Duplicates from Sorted Array
 public class LC26 {
     public static int removeDuplicate(int[] arr){
         int i=0;
