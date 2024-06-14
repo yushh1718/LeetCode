@@ -1,6 +1,4 @@
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 // 945. Minimum increment to make array unique.
 public class LC945 {
@@ -57,6 +55,6 @@ public class LC945 {
         int[] arr = {3, 2, 1, 2, 3, 7};
         // sorted array--> 1, 2, 2, 3, 3, 7
         //updated array--> 1, 2, 3, 4, 5, 7
-        System.out.println(minIncrementForUnique(arr));
+        System.out.println("Minimum increment to make given array unique: "+minIncrementForUnique(arr));
     }
 }
