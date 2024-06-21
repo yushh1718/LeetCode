@@ -11,7 +11,7 @@ public class LC35 {
         return arr.length;
     }*/
 
-    public static int searchInsert(int[] arr, int target){  // Time Complexity:- O(log n) due to Binary Search.
+    public static int searchInsert(int[] arr, int target){  // Time Complexity:- O(log n) due to Binary Search
         int start = 0;
         int end = arr.length-1;
         while(start<= end){
